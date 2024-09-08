@@ -1,0 +1,58 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .home-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .home-container table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .home-container table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  .home-container th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .home-container th {
+    background-color: #f4f4f4;
+  }
+  
+  .home-container button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .home-container .register-button {
+    background-color: #008CBA;
+  }
+  
+  .home-container button:hover {
+    opacity: 0.8;
+  }
+  
+  .logout-button {
+    align-self: flex-end;
+    margin-bottom: 20px;
+    background-color: #f44336;
+  }
+  

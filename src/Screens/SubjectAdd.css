@@ -1,0 +1,54 @@
+.subject-add-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .subject-add-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .subject-add-container form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .subject-add-container input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .radio-group {
+    margin: 20px 0;
+  }
+  
+  .radio-group h3 {
+    color: #333;
+  }
+  
+  .radio-group label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .subject-add-container button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .subject-add-container button:hover {
+    background-color: #45a049;
+  }
+  

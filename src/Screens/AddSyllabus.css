@@ -1,0 +1,45 @@
+/* src/Screens/AddSyllabus.css */
+.add-syllabus-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-syllabus-container h2 {
+    color: #4CAF50;
+    text-align: center;
+  }
+  
+  .add-syllabus-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-syllabus-form label {
+    margin-bottom: 10px;
+  }
+  
+  .add-syllabus-form input,
+  .add-syllabus-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .add-syllabus-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-syllabus-form button:hover {
+    background-color: #45a049;
+  }
+  
